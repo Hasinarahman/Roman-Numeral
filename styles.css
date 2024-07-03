@@ -8,8 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(129, 142, 158);
-  background-position: center;
+  background-image: image(photo_2024-07-03_21-21-12.jpg);
   background-size: cover;
 }
   
@@ -23,17 +22,21 @@ body {
   text-align: center;
 }
 
-h1 {
+header {
+  font-size: 10px;
   text-align: center;
-  font-size: 25px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  text-shadow: #8b8903;
 }
   
 #number {
-width: 100%;
-height: 50px;
-outline: none;
-padding: 0 12px;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  padding: 0 12px;
   font-size: 12px;
   border-radius: 5px;
   border: 2px solid #070707;
@@ -42,31 +45,27 @@ padding: 0 12px;
   color: rgb(2, 2, 2);
 }
   
-  #convert-btn{
-    width: 30%;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    border-radius: 5px;
-    color: black;
-    background: rgb(223, 215, 220);
-  }
+#convert-btn{
+  width: 30%;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: black;
+  background: rgb(223, 215, 220);
+}
+
+#output {
+  padding: 20px 10px;
+  height: 50px;
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  text-shadow: 1px 10px 15px black;
+}
   
-  @media (min-width: 300px) and (max-width: 1000px) {
-    .wrapper {
-      width: 280px;
-    }
-  
-    h1,
-    p {
-      font-size: 15px;
-    }
-  
-    #text-input,
-    #check-btn {
-      height: 38px;
-    }
-  }
+ 
