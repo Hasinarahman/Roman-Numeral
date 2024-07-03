@@ -8,7 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: image(photo_2024-07-03_21-21-12.jpg);
+  background-image: url(image/photo_2024-07-03_21-21-12.jpg);
   background-size: cover;
 }
   
@@ -40,7 +40,7 @@ h2 {
   font-size: 12px;
   border-radius: 5px;
   border: 2px solid #070707;
-  background-color: rgb(240, 222, 234);
+  background-color: rgb(250, 249, 247);
   box-shadow: 0 4px 8px rgba(3, 3, 3, 0.333);
   color: rgb(2, 2, 2);
 }
@@ -55,7 +55,7 @@ h2 {
   font-weight: 600;
   border-radius: 5px;
   color: black;
-  background: rgb(223, 215, 220);
+  background: rgb(252, 206, 3);
 }
 
 #output {
