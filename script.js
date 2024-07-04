@@ -18,7 +18,7 @@ const numeral = [
   ['I', 1],
 ];
 
-number.addEventListener('keydown', e => {
+number.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') {
     convert.click();
   }
